@@ -31,26 +31,22 @@ h1 {
   cursor: url('cursor.png'), default;
 }
 
-.mail-button {
+.button {
   position: absolute;
   margin-top: 300px;
-
-  left: 35%;
   transform: translateX(-50%);
+  
+  cursor: url('select-cursor.png'), default;
+}
+
+.mail-button {
+  left: 35%;
 }
 
 .linkedin-button {
-  position: absolute;
-  margin-top: 300px;
-
   left: 50%;
-  transform: translateX(-50%);
 }
 
 .telegram-button {
-  position: absolute;
-  margin-top: 300px;
-
   left: 65%;
-  transform: translateX(-50%);
 }
