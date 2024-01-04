@@ -5,7 +5,7 @@ html {
   position: fixed;
   background: black;
 
-  cursor: url('cursor.png'), default;
+  cursor: url('assets/cursor/cursor.png'), default;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   -ms-user-select: none;
   cursor: default;
   
-  cursor: url('cursor.png'), default;
+  cursor: url('assets/cursor/cursor.png'), default;
 }
 
 .button {
@@ -36,7 +36,7 @@ h1 {
   margin-top: 300px;
   transform: translateX(-50%);
   
-  cursor: url('select-cursor.png'), default;
+  cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
 .mail-button {
