@@ -4,6 +4,8 @@ html {
   padding: 0px;
   position: fixed;
   background: black;
+
+  cursor: url('cursor.png'), default;
 }
 
 h1 {
@@ -25,6 +27,8 @@ h1 {
   -webkit-user-select: none;
   -ms-user-select: none;
   cursor: default;
+  
+  cursor: url('cursor.png'), default;
 }
 
 .mail-button {
