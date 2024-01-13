@@ -1,9 +1,10 @@
+html,
 body {
   background: rgb(4, 1, 26);
 
   overflow-y: auto;
   white-space: nowrap;
-  cursor: url('cursor.png') 20 20, auto;
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
 }
 
 body::-webkit-scrollbar {
@@ -23,12 +24,14 @@ h1 {
   -webkit-user-select: none;
   -ms-user-select: none;
 
-  cursor: url('cursor.png') 20 20, auto;
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
 }
 
 .container {
   overflow-x: auto;
   white-space: nowrap;
+
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
 }
 
 .container::-webkit-scrollbar {
@@ -41,19 +44,20 @@ h1 {
   height: 300px;
   margin: 15px;
   margin-top: 80px;
-  text-decoration: none; 
+  text-decoration: none;
   color: black;
   background-color: #f0f0f0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-}
 
+  cursor: url('assets/cursor/select-cursor.png'), default;
+}
 
 .card:hover {
   transform: scale(1.08);
-  color: rgb(117, 91, 193); 
+  color: rgb(117, 91, 193);
 }
 
 .card img {
@@ -71,7 +75,7 @@ h1 {
   position: absolute;
   margin-top: 80px;
   transform: translateX(-50%);
-  
+
   cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
@@ -86,4 +90,3 @@ h1 {
 .telegram-button {
   left: 65%;
 }
-
