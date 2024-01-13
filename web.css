@@ -6,6 +6,10 @@ body {
   cursor: url('cursor.png') 20 20, auto;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 h1 {
   color: rgb(132, 113, 253);
   font-size: 50px;
