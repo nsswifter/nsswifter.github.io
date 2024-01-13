@@ -1,11 +1,9 @@
-body,
-html {
-  margin: 0px;
-  padding: 0px;
-  position: fixed;
-  background: black;
+body {
+  background: rgb(4, 1, 26);
 
-  cursor: url('assets/cursor/cursor.png'), default;
+  overflow-y: auto;
+  white-space: nowrap;
+  cursor: url('cursor.png') 20 20, auto;
 }
 
 h1 {
@@ -29,6 +27,15 @@ h1 {
   cursor: default;
   
   cursor: url('assets/cursor/cursor.png'), default;
+}
+
+.container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .button {
