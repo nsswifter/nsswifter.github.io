@@ -41,6 +41,8 @@ h1 {
   height: 300px;
   margin: 15px;
   margin-top: 80px;
+  text-decoration: none; 
+  color: black;
   background-color: #f0f0f0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -51,6 +53,7 @@ h1 {
 
 .card:hover {
   transform: scale(1.08);
+  color: rgb(117, 91, 193); 
 }
 
 .card img {
@@ -66,7 +69,7 @@ h1 {
 
 .button {
   position: absolute;
-  margin-top: 180px;
+  margin-top: 80px;
   transform: translateX(-50%);
   
   cursor: url('assets/cursor/select-cursor.png'), default;
@@ -83,3 +86,4 @@ h1 {
 .telegram-button {
   left: 65%;
 }
+
