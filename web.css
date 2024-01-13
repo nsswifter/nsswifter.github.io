@@ -1,20 +1,17 @@
-body,
-html {
-  margin: 0px;
-  padding: 0px;
-  position: fixed;
-  background: black;
+html,
+body {
+  background: rgb(4, 1, 26);
 
-  cursor: url('assets/cursor/cursor.png'), default;
+  overflow-y: auto;
+  white-space: nowrap;
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
-  position: absolute;
-  margin-top: 100px;
-
-  left: 50%;
-  transform: translateX(-50%);
-
   color: rgb(132, 113, 253);
   font-size: 50px;
   background-color: #07394d99;
@@ -26,16 +23,59 @@ h1 {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  cursor: default;
-  
-  cursor: url('assets/cursor/cursor.png'), default;
+
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
+}
+
+.container {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  cursor: url('assets/cursor/cursor.png') 20 20, auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  margin-top: 80px;
+  text-decoration: none;
+  color: black;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+
+  cursor: url('assets/cursor/select-cursor.png'), default;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  color: rgb(117, 91, 193);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 10px;
 }
 
 .button {
   position: absolute;
-  margin-top: 300px;
+  margin-top: 80px;
   transform: translateX(-50%);
-  
+
   cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
