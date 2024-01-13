@@ -15,8 +15,12 @@ h1 {
   color: rgb(132, 113, 253);
   font-size: 50px;
   background-color: #07394d99;
+
+  text-align: center;
+  margin-inline: 240px;
   padding-right: 16px;
   padding-left: 16px;
+
   border-radius: 18px;
 
   user-select: none;
