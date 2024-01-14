@@ -4,6 +4,7 @@ body {
 
   overflow-y: auto;
   white-space: nowrap;
+  
   cursor: url('assets/cursor/cursor.png') 20 20, auto;
 }
 
@@ -16,8 +17,12 @@ h1 {
   font-size: 50px;
   background-color: #07394d99;
 
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: inline;
+  max-width: 100%;
   text-align: center;
-  margin-inline: 240px;
   padding-right: 16px;
   padding-left: 16px;
 
@@ -29,6 +34,12 @@ h1 {
   -ms-user-select: none;
 
   cursor: url('assets/cursor/cursor.png') 20 20, auto;
+}
+
+.title-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .container {
