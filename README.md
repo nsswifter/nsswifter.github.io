@@ -1,4 +1,4 @@
-# nsswifter.github.io
+# <img src="assets/readme/safari-technology-preview-logo.png" width="50" height="50"/>&nbsp; nsswifter.github.io
 
 This [GitHub Webpage](https://nsswifter.github.io/) serves as a portfolio showcasing various aspects of who I am :}
 
