@@ -12,16 +12,21 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-h1 {
-  color: rgb(132, 113, 253);
-  font-size: 50px;
-  background-color: #07394d99;
+.header-container {
+  width: 100%;
+}
 
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  display: inline;
-  max-width: 100%;
+.header {
+  color: #fff;
+  padding: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px; 
+  margin-right: 10px; 
+  border: none;
+  background-color: rgb(4, 1, 26); 
+  color: white;
   text-align: center;
   padding-right: 16px;
   padding-left: 16px;
