@@ -45,6 +45,9 @@ body::-webkit-scrollbar {
   overflow-x: auto;
 
   cursor: url('assets/cursor/cursor.png') 20 20, auto;
+
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .card-container::-webkit-scrollbar {
