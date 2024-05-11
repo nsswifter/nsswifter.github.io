@@ -4,8 +4,11 @@ body {
 
   overflow-y: auto;
   white-space: nowrap;
-  
   cursor: url('assets/cursor/cursor.png') 20 20, auto;
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -28,40 +31,30 @@ body::-webkit-scrollbar {
   background-color: rgb(4, 1, 26); 
   color: white;
   text-align: center;
-  padding-right: 16px;
-  padding-left: 16px;
-
-  border-radius: 18px;
-
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-
-  cursor: url('assets/cursor/cursor.png') 20 20, auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  size: 20px;
 }
 
-.title-container {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+.card-container {
+  padding-bottom: 70px; 
+  background-color:  rgb(28, 19, 65);
 
-.container {
   overflow-x: auto;
-  white-space: nowrap;
 
   cursor: url('assets/cursor/cursor.png') 20 20, auto;
 }
 
-.container::-webkit-scrollbar {
+.card-container::-webkit-scrollbar {
   display: none;
 }
 
 .card {
   display: inline-block;
-  width: 200px;
-  height: 300px;
+  width: 280px;
+  height: 500px;
   margin: 15px;
   margin-top: 80px;
   text-decoration: none;
@@ -82,9 +75,14 @@ body::-webkit-scrollbar {
 
 .card img {
   width: 100%;
-  height: 60%;
+  height: 55%;
   object-fit: cover;
   border-bottom: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card p {
+  white-space: wrap;
 }
 
 .card-content {
