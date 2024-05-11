@@ -94,6 +94,10 @@ h1 {
   cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
+.contact-button-container {
+  padding-bottom: 250px;
+}
+
 .mail-button {
   left: 35%;
 }
