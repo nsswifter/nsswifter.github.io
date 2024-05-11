@@ -83,7 +83,45 @@ h1 {
 }
 
 .card-content {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.collection {
+  width: calc(33.33% - 10px);
+  height: 140pt;
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.collection h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.collection h4 {
+  text-align: center;
+}
+
+.collection p {
+  text-align: center;
+  white-space: wrap;
+
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .button {
