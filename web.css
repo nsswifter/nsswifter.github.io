@@ -1,155 +1,158 @@
 html,
 body {
-  background: rgb(4, 1, 26);
-
-  overflow-y: auto;
-  white-space: nowrap;
-  cursor: url('assets/cursor/cursor.png') 20 20, auto;
-
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    background: rgb(4, 1, 26);
+    
+    overflow-y: auto;
+    white-space: nowrap;
+    cursor: url('assets/cursor/cursor.png') 20 20, auto;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .header-container {
-  width: 100%;
+    width: 100%;
 }
 
 .header {
-  color: #fff;
-  padding: 20px;
+    color: #fff;
+    padding: 20px;
 }
 
 .button-container button {
-  padding: 10px 20px; 
-  margin-right: 10px; 
-  border: none;
-  background-color: rgb(4, 1, 26); 
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-  cursor: pointer;
-  size: 20px;
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    border: none;
+    background-color: rgb(4, 1, 26); 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    size: 20px;
 }
 
 .card-container {
-  padding-bottom: 70px; 
-  background-color:  rgb(28, 19, 65);
-
-  overflow-x: auto;
-
-  cursor: url('assets/cursor/cursor.png') 20 20, auto;
-
-  padding-left: 40px;
-  padding-right: 40px;
+    padding-bottom: 70px; 
+    background-color:  rgb(28, 19, 65);
+    
+    overflow-x: auto;
+    
+    cursor: url('assets/cursor/cursor.png') 20 20, auto;
+    
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .card-container::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .card {
-  display: inline-block;
-  width: 280px;
-  height: 500px;
-  margin: 15px;
-  margin-top: 80px;
-  text-decoration: none;
-  color: black;
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
-
-  cursor: url('assets/cursor/select-cursor.png'), default;
+    display: inline-block;
+    width: 280px;
+    height: 500px;
+    margin: 15px;
+    margin-top: 80px;
+    text-decoration: none;
+    color: black;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    
+    cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
 .card:hover {
-  transform: scale(1.08);
-  color: rgb(117, 91, 193);
+    transform: scale(1.08);
+    color: rgb(117, 91, 193);
 }
 
 .card img {
-  width: 100%;
-  height: 55%;
-  object-fit: cover;
-  border-bottom: 1px solid #ddd;
-  border-radius: 8px;
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 .card p {
-  white-space: wrap;
+    white-space: wrap;
 }
 
 .card-content {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .collections {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  padding: 40px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .collection {
-  width: calc(33.33% - 10px);
-  height: 140pt;
-  background-color: #f0f0f0;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-  border-radius: 8px;
+    width: calc(33.33% - 10px);
+    height: 140pt;
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .collection h3 {
-  margin: 0;
-  font-size: 18px;
+    margin: 0;
+    font-size: 18px;
 }
 
 .collection h4 {
-  text-align: center;
+    text-align: center;
 }
 
 .collection p {
-  text-align: center;
-  white-space: wrap;
-
-  margin-top: 5px;
-  font-size: 14px;
+    text-align: center;
+    white-space: wrap;
+    
+    margin-top: 5px;
+    font-size: 14px;
 }
 
 .button {
-  position: absolute;
-  margin-top: 80px;
-  transform: translateX(-50%);
-
-  cursor: url('assets/cursor/select-cursor.png'), default;
+    margin-top: 80px;
+    transform: translateX(-50%);
+    
+    cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
 .contact-button-container {
-  padding-bottom: 250px;
+    color: #d0d3f5; 
+    text-align: center;
+    font-size: medium;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .mail-button {
-  left: 35%;
+    left: 35%;
 }
 
 .linkedin-button {
-  left: 50%;
+    left: 50%;
 }
 
 .telegram-button {
-  left: 65%;
+    left: 65%;
 }
