@@ -2,9 +2,7 @@ html,
 body {
     background: rgb(4, 1, 26);
     
-    overflow-y: auto;
     white-space: nowrap;
-    cursor: url('assets/cursor/cursor.png') 20 20, auto;
     
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,20 +32,17 @@ body::-webkit-scrollbar {
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-    cursor: pointer;
     size: 20px;
 }
 
 .card-container {
-    padding-bottom: 70px; 
     background-color:  rgb(28, 19, 65);
     
     overflow-x: auto;
-    
-    cursor: url('assets/cursor/cursor.png') 20 20, auto;
-    
+        
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 70px; 
 }
 
 .card-container::-webkit-scrollbar {
@@ -66,9 +61,7 @@ body::-webkit-scrollbar {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-    
-    cursor: url('assets/cursor/select-cursor.png'), default;
+    transition: transform 0.3s ease-in-out; 
 }
 
 .card:hover {
@@ -133,8 +126,6 @@ body::-webkit-scrollbar {
 .button {
     margin-top: 80px;
     transform: translateX(-50%);
-    
-    cursor: url('assets/cursor/select-cursor.png'), default;
 }
 
 .contact-button-container {
