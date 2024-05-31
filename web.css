@@ -147,3 +147,41 @@ body::-webkit-scrollbar {
 .telegram-button {
     left: 65%;
 }
+
+.profile-image-container {
+    background-image: repeating-radial-gradient(circle, rgb(33, 14, 63) 20%, rgb(4, 4, 33) 40%);
+    background-size: 50px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    padding: 50px;
+}
+
+.profile-title {
+    text-align: right;
+    font-size: 50px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+ }
+
+ .first-name-text {
+    color: #b7c9f0;
+    margin-top: 160px;
+    margin-bottom: -40px;
+ }
+
+ .last-name-text {
+    color: #beaff0;
+ }
+
+#oval-shape {
+    width: 80%;
+    max-width: 550px;
+    max-height: 550px;
+    border-top-left-radius: 160px;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 260px;
+    border-bottom-right-radius: 160px;
+  }
