@@ -153,6 +153,8 @@ body::-webkit-scrollbar {
     background-size: 50px 30px;
     display: flex;
     justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .profile-image {
@@ -178,8 +180,8 @@ body::-webkit-scrollbar {
 
 #oval-shape {
     width: 80%;
-    max-width: 550px;
-    max-height: 550px;
+    max-width: 350px;
+    max-height: 350px;
     border-top-left-radius: 160px;
     border-bottom-left-radius: 300px;
     border-top-right-radius: 260px;
